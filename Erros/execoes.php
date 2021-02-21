@@ -1,0 +1,19 @@
+<?php
+
+error_reporting(E_ALL);
+
+$divisor = 10;
+
+
+
+try {
+    if($divisor == 0){
+        throw new Exception("Nao e possivel dividir por 0, defina outro valor", 1);
+    }
+
+    $valor = 100 / $divisor;
+    echo $valor;
+} catch (\Throwable $th) {
+    echo $th->getMessage();
+}
+
