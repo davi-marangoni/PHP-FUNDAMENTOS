@@ -5,8 +5,8 @@ define("ESCOLA", "Treinaweb Cursos");
 echo ESCOLA;
 
 const CURSO = "PHP";
-echo '<br>'; // coe
-echo CURSO; # bom dia
+echo '<br>'; // comentario
+echo CURSO; # comentario
 
 // comentario
 # comentario tambem
